@@ -1,0 +1,64 @@
+body {
+    font-style: normal;
+    color: white;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    align-self: flex-start; 
+    margin: 20px;
+}
+
+#movieContainer {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    overflow-x: auto;
+    padding: 20px;
+    width: 90%; 
+}
+
+.movie {
+    margin: 10px;
+    text-align: center;
+    flex: 0 0 auto;
+    width: 200px;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.movie img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.movie p {
+    margin: 5px 0;
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2em;
+    color: white;
+    cursor: pointer;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.left-arrow {
+    left: 10px;
+}
+
+.right-arrow {
+    right: 10px;
+}

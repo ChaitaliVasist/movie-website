@@ -1,0 +1,18 @@
+.movie-details {
+    text-align: center;
+  }
+  
+  .movie-details img {
+    width: 300px;
+    height: auto;
+  }
+  
+  .movie-details h2 {
+    font-size: 24px;
+  }
+  
+  .vote-controls button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+  }
